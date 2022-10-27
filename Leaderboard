@@ -1,7 +1,7 @@
 import { Table } from 'embed-table';
 import { MessageEmbed } from 'discord.js';
 
-const table = new Table({Leaderboard
+const table = new Table({
   titles: ['Level', 'Money', 'Wins'],
   titleIndexes: [0, 8, 16],
   columnIndexes: [0, 6, 14],
